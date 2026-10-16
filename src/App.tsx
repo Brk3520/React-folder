@@ -16,18 +16,13 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Berke DEMO</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            Das ist meine erste React App mit Vite.
           </p>
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+
+
       </section>
 
       <div className="ticks"></div>
@@ -37,8 +32,9 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <h2>Kontakt</h2>
+          <p>Berke.arziman@student.at</p>
+          <p>+42 0660 1234567</p>
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
