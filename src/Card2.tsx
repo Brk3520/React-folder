@@ -1,12 +1,20 @@
 
-type Props = {}
+import styles from './Card2.module.css'
 
-export default function Card2({ }: Props) {
+type Props = {
+    name: string
+    image: string
+    description: string
+    author: string
+}
+
+export default function Card2({ name, image, description, author }: Props) {
     return (
-        <div className="card">
-            <h2>Vidal</h2>
-            <img src="https://picsum.photos/200/301" alt="Hero" />
-            <p>made by Admin</p>
+        <div className={styles.card2}>
+            <h2>{name}</h2>
+            <img src={image} alt={name} />
+            <p>{description}</p>
+            <p>made by {author}</p>
         </div>
 
     )
