@@ -3,3 +3,8 @@
     padding: 1rem;
     border-radius: 12px;
 }
+
+.card3 img {
+    width: 200px;
+    height: 300px;
+}

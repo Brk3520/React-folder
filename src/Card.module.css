@@ -4,3 +4,8 @@
     border-radius: 12px;
     border-color: grey;
 }
+
+.card img {
+    width: 200px;
+    height: 300px;
+}

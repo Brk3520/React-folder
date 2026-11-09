@@ -1,19 +1,19 @@
 import styles from './Card3.module.css'
+import LikeDislike from './LikeDislike'
 
 type Props = {
-    title: string
+    name: string
     description: string
-    topics: string[]
+    image: string
 }
 
-export default function Card3({ title, description, topics }: Props) {
+export default function Card3({ name, description, image }: Props) {
     return (
         <div className={styles.card3}>
-            <h2>{title}</h2>
+            <h2>{name}</h2>
+            <img src={image} alt={name} />
             <p>{description}</p>
-            <ul>
-                {topics.map((topic) => <li key={topic}>{topic}</li>)}
-            </ul>
+            <LikeDislike />
         </div>
 
     )
